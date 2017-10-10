@@ -26,7 +26,7 @@ function playGame(player) {
         }
         else { //Start of an else statement
             alert("Quitter!"); //Gives an alert that says quitter
-            player.losses ++; //Counts the losse
+            player.losses ++; //Counts the losses
         }
     }
     while (Correct == 0); //Keep looping while answer is wrong until the answer is right. 
@@ -40,6 +40,7 @@ function start() { // Starts the function that is called start, so the game can 
     }
     while(playAgain == 'y');//Input "y" if you want to play again 
 }
+
 
 
 alert("Steel your mind for this, the ultimate game of skill!"); //Shows text on the screen that says "Steel your mind for this, the ultimate game of skill!"
